@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# 运行时产物
+config.json
+player.log
+*.log
+
+# libmpv 二进制（不放仓库，README 里说明怎么下）
+libmpv-2.dll
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
